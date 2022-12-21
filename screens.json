@@ -1,0 +1,31 @@
+ [
+        {
+            "type": "welcome",
+            "message": "Welcome to the screen changer program!\n"
+        },
+        {
+            "type": "form",
+            "message": "Please enter your name, last name, and age:\n",
+            "fields": 
+            [
+                { 
+                    "name": "firsName",
+                    "label": "First Name"
+                },
+                { 
+                    "name": "lastName",
+                    "label": "Last Name"
+                },
+                { 
+                    "name": "age",
+                    "label": "Age"
+                }
+            ]
+        },
+        {
+            "type": "exit",
+            "message": "Do you want to exit the program? (y/n)\n"
+        }
+]
+
+
